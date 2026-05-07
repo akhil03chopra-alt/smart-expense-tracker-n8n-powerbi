@@ -1,170 +1,191 @@
-# 💰 AI Finance Expense Automation System
+# 💰 Smart Expense Tracker using n8n, Google Forms & Power BI
+
+An AI-powered Expense Automation System built using **Google Forms, Google Sheets, n8n, Gmail Automation, and Power BI** for real-time financial tracking, automated workflows, and data-driven decision-making.
+
+---
 
 ## 📌 Project Overview
 
-This project demonstrates an end-to-end **automated expense management system** built using no-code tools and analytics platforms. It integrates Google Forms, Google Sheets, n8n workflow automation, and Power BI to create a **real-time financial tracking system**.
+This project automates the complete expense tracking process — from collecting expense data through Google Forms to sending automated notifications and visualizing insights in Power BI.
 
-The solution eliminates manual work, reduces processing time, and provides instant visibility into expenses for better decision-making.
+The workflow helps users:
 
----
-
-## 🚨 Business Problem
-
-Traditional expense management systems rely heavily on:
-
-* Manual data entry
-* Email approvals
-* Spreadsheet tracking
-* Delayed reporting
-
-### ❌ Challenges:
-
-* High chances of errors
-* Slow reimbursement process
-* No real-time insights
-* Inefficient financial control
+* Track daily expenses efficiently
+* Automate data collection
+* Receive instant email notifications
+* Analyze spending patterns using dashboards
+* Reduce manual work through automation
 
 ---
 
-## ✅ Solution
+# 🚀 Features
 
-This system automates the complete workflow:
-
-1. Employee submits expense via **Google Form**
-2. Data is stored in **Google Sheets**
-3. **n8n** automatically triggers workflow
-4. Email notification sent to finance team
-5. Data visualized in **Power BI Dashboard**
-
----
-
-## 🛠️ Tools & Technologies
-
-* Google Forms (Data Input)
-* Google Sheets (Data Storage)
-* n8n (Workflow Automation)
-* Gmail (Email Notifications)
-* Microsoft Power BI (Dashboard & Analytics)
+✅ Expense Entry through Google Forms
+✅ Automated Workflow using n8n
+✅ Real-Time Data Storage in Google Sheets
+✅ Email Notifications for New Entries
+✅ Interactive Power BI Dashboard
+✅ Expense Category Analysis
+✅ Monthly Spending Insights
+✅ Fully Automated Expense Management System
 
 ---
 
-## 🔄 Workflow Architecture
+# 🛠️ Tech Stack
 
-```text
-Google Form → Google Sheets → n8n Workflow → Email Notification → Power BI Dashboard
+| Technology    | Purpose                   |
+| ------------- | ------------------------- |
+| Google Forms  | Expense Data Collection   |
+| Google Sheets | Data Storage              |
+| n8n           | Workflow Automation       |
+| Gmail         | Email Notifications       |
+| Power BI      | Dashboard & Visualization |
+| GitHub        | Project Hosting           |
+
+---
+
+# 📂 Project Structure
+
+```bash
+smart-expense-tracker-n8n-powerbi/
+│
+├── README.md
+├── LICENSE
+├── google_form.png
+├── n8n Screenshot.png
+├── Excel Screenshot.png
+├── Expense data tracker.jpeg
+├── email_notification.png
+└── powerbi_dashboard.png
 ```
 
 ---
 
-## 📁 Project Structure
+# 🔄 Workflow Architecture
 
-```text
-Finance-Automation-Project/
-│
-├── n8n_workflow/
-│   └── expense_automation_workflow.json
-│
-├── ppt/
-│   └── expense_tracker_presentation.pptx
-│
-├── screenshots/
-│   ├── form_view.png
-│   ├── sheet_data.png
-│   ├── workflow_diagram.png
-│   └── email_notification.png
+```mermaid
+graph LR
+A[Google Form] --> B[Google Sheets]
+B --> C[n8n Automation]
+C --> D[Email Notification]
+B --> E[Power BI Dashboard]
 ```
-## 📸 Screenshots
-
-### 1. Google Form Interface
-![Google Form]("C:\Users\Lenovo\Downloads\Form_view.png")
 
 ---
 
-### 2. Google Sheet Data Capture
-![Google Sheet]("C:\Users\Lenovo\OneDrive\Pictures\Screenshots\Excel Screenshot.png")
+# 📸 Project Screenshots
 
+## 1️⃣ Google Form for Expense Entry
 
----
-
-### 3. n8n Workflow Architecture
-![Workflow]("C:\Users\Lenovo\OneDrive\Pictures\Screenshots\n8n Screenshot.png")
+![Google Form](google_form.png)
 
 ---
 
-### 4. Power BI Dashboard
-![Power BI](https://raw.githubusercontent.com/shreyathakkar0410/ai-finance-expense-automation-system/main/screenshots/powerbi_dashboard.png)
+## 2️⃣ n8n Workflow Automation
+
+![n8n Workflow](n8n%20Screenshot.png)
 
 ---
 
-### 5. Email Notification Output
-![Email]("C:\Users\Lenovo\Downloads\email_notification.png")
----
+## 3️⃣ Expense Data Tracker
 
-
----
-
-
+![Expense Tracker](Expense%20data%20tracker.jpeg)
 
 ---
 
-## ⭐ Key Features
+## 4️⃣ Excel / Google Sheets Database
 
-* Automated expense data capture
-* Real-time workflow execution
-* Instant email notifications
-* Centralized expense tracking
-* Dashboard-based insights
+![Excel Screenshot](Excel%20Screenshot.png)
 
 ---
 
-## 📊 Business Impact
+## 5️⃣ Email Notification System
 
-* Reduced manual effort and errors
-* Faster expense processing
-* Improved transparency
-* Real-time financial insights
-* Better budgeting and control
+![Email Notification](email_notification.png)
 
 ---
 
-## 🌍 Real-World Applications
+## 6️⃣ Power BI Dashboard
 
-* Corporate finance departments
-* Startups automating operations
-* Consulting firms
-* Shared service centers
+![Power BI Dashboard](powerbi_dashboard.png)
 
 ---
 
-## ⚙️ How to Run the Project
+# 📊 Power BI Dashboard Insights
 
-1. Create a Google Form for expense submission
-2. Link responses to Google Sheets
-3. Build n8n workflow using Google Sheets trigger
-4. Configure Gmail node for notifications
-5. Connect dataset to Power BI for dashboard
+The dashboard provides:
 
----
-
-## 🚀 Future Enhancements
-
-* Approval workflow integration
-* AI-based fraud detection
-* Budget alerts & notifications
-* Role-based dashboards
-* ERP system integration
+* Monthly Expense Overview
+* Expense Category Distribution
+* Payment Mode Analysis
+* Spending Trends
+* Total Expense Tracking
+* Automated Financial Reporting
 
 ---
 
-## 🏁 Conclusion
+# ⚙️ How It Works
 
-This project shows how automation and AI-driven workflows can transform traditional finance systems into **smart, real-time decision-making platforms**.
+### Step 1: User submits expense details through Google Form
+
+### Step 2: Data gets stored automatically in Google Sheets
+
+### Step 3: n8n workflow monitors new entries
+
+### Step 4: Automated email notification is triggered
+
+### Step 5: Power BI dashboard updates for real-time analytics
 
 ---
 
-## 👩‍💼 Author
+# 🧠 Use Cases
 
-**AKHIL**
-MBA Finance Student | AI in Finance Practitioner
+* Personal Expense Management
+* Business Expense Tracking
+* Finance Automation Projects
+* Workflow Automation Learning
+* Power BI Portfolio Projects
+* Data Analytics Demonstrations
 
 ---
+
+# 📈 Future Enhancements
+
+* AI-based Expense Prediction
+* WhatsApp Notifications
+* Mobile App Integration
+* OCR Bill Scanner
+* Budget Alert System
+* Cloud Database Integration
+
+---
+
+# 🏆 Project Highlights
+
+✔ End-to-End Automation
+✔ Real-Time Reporting
+✔ Beginner-Friendly Workflow
+✔ Scalable Architecture
+✔ Industry-Relevant Tech Stack
+
+---
+
+# 👨‍💻 Author
+
+**Akhil Chopra**
+
+📧 Email: [your-email@example.com](mailto:your-email@example.com)
+🔗 LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+💻 GitHub: [https://github.com/akhil03chopra-alt](https://github.com/akhil03chopra-alt)
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
