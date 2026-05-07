@@ -50,7 +50,7 @@ Google Form → Google Sheets → n8n Workflow → Email Notification → Power 
 ## Screenshots
 
 ### Google Form
-![Google Form](screenshots/google_form.png)
+![Google Form]("C:\Users\Lenovo\Downloads\google_form.png")
 
 ### Google Sheet
 ![Google Sheet](screenshots/google_sheet.png)
