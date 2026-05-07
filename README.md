@@ -81,13 +81,13 @@ Finance-Automation-Project/
 ---
 
 ### 2. Google Sheet Data Capture
-![Google Sheet](google_sheet.png)
+![Google Sheet]("C:\Users\Lenovo\OneDrive\Pictures\Screenshots\Excel Screenshot.png")
 
 
 ---
 
 ### 3. n8n Workflow Architecture
-![Workflow](https://raw.githubusercontent.com/shreyathakkar0410/ai-finance-expense-automation-system/main/screenshots/workflow_diagram.png)
+![Workflow]("C:\Users\Lenovo\OneDrive\Pictures\Screenshots\n8n Screenshot.png")
 
 ---
 
@@ -97,7 +97,7 @@ Finance-Automation-Project/
 ---
 
 ### 5. Email Notification Output
-![Email](https://raw.githubusercontent.com/shreyathakkar0410/ai-finance-expense-automation-system/main/screenshots/email_output.png)
+![Email]("C:\Users\Lenovo\Downloads\email_notification.png")
 ---
 
 
